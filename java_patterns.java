@@ -3,7 +3,7 @@ import java.util.*;
 
 
  
-public class java2{
+public class java_patterns{
 
 //recatngle_pattern_1
     public static void rectangle(int rows,int col){
@@ -176,22 +176,22 @@ public static void hrs(int rows) {
    
    public static void main(String[] args) {
     System.out.println("rectangle");
-    rectangle(4, 4);
+    rectangle(10, 10);
     System.out.println("inverted rotated pyramid:");
-    irpyr(4);
+    irpyr(10);
     System.out.println("inverted half pyramid of numbers:");
-    ihpn(4);
+    ihpn(10);
     System.out.println("floyd's triangle:");
-    floyd(4);
+    floyd(10);
     System.out.println("zero and one triangle:");
-    zot(4);
+    zot(10);
     System.out.println("butterfly:");
-    bttr(4);
+    bttr(10);
     System.out.println("solid rhombus:");
-    rs(4);
+    rs(10);
     System.out.println("hollow rhombus ");
-    hrs(4);
+    hrs(10);
     System.out.println("diamond");
-    dmnd(4);
+    dmnd(10);
 }
 }
